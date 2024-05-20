@@ -29,12 +29,3 @@ The LSTM model is built using PyTorch and includes the following layers:
 1. **Embedding layer**: Converts input tokens into dense vectors of fixed size.
 2. **LSTM layer**: Processes the sequences of token embeddings, capturing temporal dependencies.
 3. **Fully connected layer**: Maps the output of the LSTM to the desired number of sentiment classes (Irrelevant, Negative, Neutral, Positive).
-
-## Usage
-
-### Installation
-
-Ensure you have Python and the necessary libraries installed. You can install the required packages using:
-
-```bash
-pip install -r requirements.txt
